@@ -1,0 +1,35 @@
+Package: BioEnricher
+Type: Package
+Title: Integrate Analysis and Visualization for Bioinformatic
+        Enrichment Analyzer
+Version: 0.1.0
+Authors@R: c(person("Zaoqu", "Liu", email = "liuzaoqu@163.com", role = c("aut", "cre"),comment=c(ORCID="0000-0002-0452-742X")))
+Description: This package lies in addressing two issues: firstly, it facilitates the 
+    seamless integration for enrichment analysis, encompassing diverse functionalities 
+    such as GO, KEGG, WikiPathways, Reactome, MsigDB, Disease Ontology, Cancer Gene 
+    Network, DisGeNET, CellMarker, and CMAP (drugs); infers the activities of 
+    transcription factors and PROGENy cancer pathways; searches the gene information, 
+    PubMed records and GEO metadata based on the input terms. Secondly, it encapsulates 
+    advanced visualization functions, streamlining the process for faster and more 
+    convenient data presentation.
+License: MIT + file LICENSE
+Encoding: UTF-8
+ByteCompile: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Depends: R (>= 4.3.0)
+Imports: clusterProfiler, dorothea, dplyr, europepmc, enrichplot,
+        ggplot2, GSVA, HGNChelper, Hmisc, magrittr, msigdbr, openssl,
+        pathview, progeny, ReactomePA, rlang, vroom, RColorBrewer,
+        RCurl, cowplot, fst, paletteer, showtext, stringi, xml2,
+        genekitr, Mfuzz, igraph
+Suggests: knitr, rmarkdown, BiocStyle, KernSmooth, class, survival
+VignetteBuilder: knitr
+biocViews: Software, GeneSetEnrichment, Visualization
+BugReports: https://github.com/bionoob7/BioEnricher/issues
+URL: https://github.com/bionoob7/BioEnricher
+Additional_repositories: https://bioconductor.org/packages/release/bioc
+LazyData: true
+Author: Zaoqu Liu [aut, cre] (<https://orcid.org/0000-0002-0452-742X>)
+Maintainer: Keqiang Ma <bionoob777@outlook.com>
+Built: R 4.3.1; ; 2023-12-16 14:38:06 UTC; windows

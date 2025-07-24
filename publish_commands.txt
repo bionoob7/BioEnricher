@@ -1,0 +1,25 @@
+COPY AND PASTE THESE COMMANDS TO PUBLISH TO GITHUB:
+
+1. Open Command Prompt or PowerShell in your BioEnricher folder
+
+2. Run these commands one by one:
+
+git init
+git add .
+git commit -m "Initial commit: BioEnricher R package"
+git branch -M main
+git remote add origin https://github.com/bionoob7/BioEnricher.git
+git push -u origin main
+
+3. Before running the commands above, create the GitHub repository:
+   - Go to https://github.com/bionoob7
+   - Click "New" repository
+   - Name: BioEnricher
+   - Make it Public
+   - Don't initialize with README
+   - Click "Create repository"
+
+4. After pushing, test installation:
+   devtools::install_github("bionoob7/BioEnricher")
+
+THAT'S IT! Your package will be live on GitHub.
