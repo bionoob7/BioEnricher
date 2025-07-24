@@ -25,7 +25,7 @@ You can install the development version from GitHub:
 install.packages("devtools")
 
 # Install BioEnricher
-devtools::install_github("your-username/BioEnricher")
+devtools::install_github("Bionoob7/BioEnricher")
 ```
 
 ## Dependencies
@@ -57,4 +57,4 @@ MIT License
 
 ## Issues
 
-Please report issues at: https://github.com/your-username/BioEnricher/issues
+Please report issues at: https://github.com/bionoob7/BioEnricher/issues
