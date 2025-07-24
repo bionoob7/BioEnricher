@@ -51,6 +51,10 @@ library(BioEnricher)
 
 Zaoqu Liu (<liuzaoqu@163.com>)
 
+## Maintainer
+
+Keqiang Ma (<bionoob777@outlook.com>)
+
 ## License
 
 MIT License
